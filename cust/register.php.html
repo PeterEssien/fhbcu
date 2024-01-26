@@ -1,0 +1,167 @@
+﻿                    
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
+  
+  
+  <!-- HEAD  -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>FHB - Online banking</title>
+
+    <meta name="description" content="">
+
+<!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/ico"><!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../css2-1?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css">
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+
+    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css">
+
+    <!-- Page CSS -->
+ 
+
+    <!-- Helpers -->
+    <script src="assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="assets/js/config.js"></script>
+  </head>  <!-- / HEAD  -->
+
+  <link rel="stylesheet" href="assets/vendor/css/pages/page-auth.css">
+  <body>
+    <!-- Content -->
+
+    <div class="container-xxl">
+      <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+          <!-- Register -->
+          <div class="card">
+            <div class="card-body">
+
+
+              <!-- Logo -->
+              <div class="app-brand justify-content-center">
+                <a href="../index.php.html" class="app-brand-link gap-2">
+                <span class="app-brand-logo demo">
+                  <i class="bx bxs-bank"></i> 
+               </span>
+               <span class="app-brand-text  menu-text fw-bolder ms-2">First Heritage Bank</span>
+                </a>
+              </div>
+              <!-- /Logo -->
+
+
+              <h4 class="mb-2">Bank with Ease! 👋</h4>
+              <p class="mb-4">Send Us Your Information.</p>
+
+              <form action="register.php" method="post" role="form" class="mb-3" novalidate="">
+                
+                <div class="mb-3" id="err"></div>
+                
+                
+                <div class="mb-3">
+                  <label for="email" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter First Name" name="firstname" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Last Name" name="lastname" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-Mail </label>
+                  <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Mobile Number </label>
+                  <input type="number" class="form-control" id="name" placeholder="Enter Your Mobile Number" name="mobile" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Password </label>
+                  <input type="password" class="form-control" id="password1" placeholder="Set your online password" name="password1" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Confirm Password </label>
+                  <input type="password" class="form-control" id="password2" placeholder="Confirm Password" name="password2" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Country  </label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Country" name="country" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">State  </label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter State" name="state" value="" required="" autofocus="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">City  </label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter City" name="city" value="" required="" autofocus="">
+                </div>
+
+
+
+
+
+
+                <br> 
+                <div class="mb-3">
+                  <button id="btnlogin" class="btn btn-primary w-100" type="submit" name="sendemail">
+                  <i id="loginSpinProcess" class="bx bx-user"></i>  Register </button>
+                </div>
+              </form>
+
+              <p class="text-center">
+                <span>I already have an account?</span>
+                <a href="login.php.html">
+                  <span>Login</span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <!-- /Register -->
+        </div>
+      </div>
+    </div>
+
+    <!-- / Content -->
+
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/jquery/jquery.ajax-cross-origin.min.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="assets/js/dashboards-analytics.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async="" defer="" src="../buttons.js"></script>    <script>
+
+        </script>
+   <script src="//code.tidio.co/64boiufzcybv0mfy1qw2wwi2olmawcnd.js" async=""></script>    </body>
+</html>
